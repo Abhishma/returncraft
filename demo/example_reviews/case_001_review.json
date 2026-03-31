@@ -1,0 +1,20 @@
+{
+  "case_id": "CASE-001",
+  "status": "review_ready",
+  "confidence_band": "medium",
+  "options": [
+    "Approve damage claim review under damaged/defective item clause",
+    "Confirm damage evidence is sufficient before any refund decision"
+  ],
+  "policy_citations": [
+    "damage_or_defect",
+    "discounted_item_exclusion"
+  ],
+  "evidence_used": [
+    "2 photos",
+    "delivery timestamp",
+    "discounted item flag"
+  ],
+  "missing_evidence": [],
+  "escalation_required": false
+}

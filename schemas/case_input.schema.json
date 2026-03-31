@@ -1,0 +1,44 @@
+{
+  "type": "object",
+  "required": [
+    "case_id",
+    "order_id",
+    "case_summary",
+    "policy_version"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string"
+    },
+    "order_id": {
+      "type": "string"
+    },
+    "case_summary": {
+      "type": "string"
+    },
+    "days_since_delivery": {
+      "type": "number"
+    },
+    "evidence_available": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "discounted_item": {
+      "type": "boolean"
+    },
+    "international_order": {
+      "type": "boolean"
+    },
+    "claim_type": {
+      "type": "string"
+    },
+    "repeat_claimant": {
+      "type": "boolean"
+    },
+    "policy_version": {
+      "type": "string"
+    }
+  }
+}

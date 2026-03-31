@@ -1,0 +1,15 @@
+{
+  "case_id": "CASE-001",
+  "order_id": "ORD-1001",
+  "case_summary": "Customer claims rug arrived damaged after 6 days. Item was purchased on discount.",
+  "days_since_delivery": 6,
+  "evidence_available": [
+    "2 photos",
+    "delivery timestamp"
+  ],
+  "discounted_item": true,
+  "international_order": false,
+  "claim_type": "damage_or_defect",
+  "repeat_claimant": false,
+  "policy_version": "v2"
+}

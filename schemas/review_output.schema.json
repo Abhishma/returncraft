@@ -1,0 +1,60 @@
+{
+  "type": "object",
+  "required": [
+    "case_id",
+    "status",
+    "confidence_band",
+    "options",
+    "policy_citations",
+    "evidence_used",
+    "missing_evidence",
+    "escalation_required"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "review_ready",
+        "abstained"
+      ]
+    },
+    "confidence_band": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "policy_citations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_used": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "missing_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "escalation_required": {
+      "type": "boolean"
+    }
+  }
+}

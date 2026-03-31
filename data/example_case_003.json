@@ -1,0 +1,14 @@
+{
+  "case_id": "CASE-003",
+  "order_id": "ORD-1003",
+  "case_summary": "Customer says item is damaged but provides no photos. Policy version mentioned inconsistently by agent notes.",
+  "days_since_delivery": 9,
+  "evidence_available": [
+    "chat transcript"
+  ],
+  "discounted_item": false,
+  "international_order": true,
+  "claim_type": "damage_or_defect",
+  "repeat_claimant": false,
+  "policy_version": "conflict"
+}
